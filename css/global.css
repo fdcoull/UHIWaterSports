@@ -1,0 +1,218 @@
+/*
+Created by Finlay Daniel Coull
+2020-05-05
+UHI Water Sports Centre
+Global stylesheet
+*/
+
+/* Common styles */
+body {
+	font-family: opensans-regular;
+	background-color: #dddddd;
+	background-image: url("../images/bg.png");
+	background-repeat: repeat;
+}
+
+p {
+	font-size: 1.3em;
+}
+
+h1 {
+	font-size: 2.5em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+h2 {
+	font-size: 2.0em;
+}
+
+table {
+	width: 100%;
+	font-size: 1.3em;
+}
+
+td {
+    padding: 5px 0 5px 0;
+}
+
+.quantity-input {
+	width: 3em;
+}
+
+.body-main {
+	background-color: #fff;
+	margin: 50px 5% 50px 5%;
+	padding: 10px 10px 10px 10px;
+}
+
+.footer {
+	padding-top: 40px;
+	color: #777777;
+	text-align: center;
+}
+
+/* Navbar override */
+/* (zessx, StackOverflow 2015) */
+.navbar-default {
+	background-color: #3DCCE5;
+	border-color: #00c0e6;
+	font-family: opensans-extrabold;
+	font-size: 1.2em;
+}
+
+.navbar-default .navbar-brand {
+	padding:5px 15px;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: #dddddd;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #ffffff;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	color: #ffffff;
+	background-color: #00c0e6;
+}
+
+/* Button override */
+/* (ckuijjer, StackOverflow 2015) */
+.btn-primary,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #3DCCE5;
+    border-color: #3DCCE5;
+}
+
+.btn-primary:hover {
+	background-color: #00C0E6;
+	border-color: #00C0E6;
+}
+
+/* About page styles */
+.about-img {
+	width: 100%;
+}
+
+.about-ul {
+	font-size: 1.3em;
+}
+
+/* Shop page styles */
+
+.shop-img {
+	width: 100%;
+}
+
+.shop-info {
+	background-color: #3DCCE5;
+	margin: 0 2% 20px 2%;
+	padding: 2%;
+}
+
+.shop-plus {
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.shop-plus:hover {
+	color: #dddddd;
+}
+
+/* Item page styles */
+.item-img {
+	width: 100%;
+}
+
+.item-info-panel {
+	padding: 5%;
+}
+
+.item-plus {
+	color: #3DCCE5;
+	cursor: pointer;
+}
+
+.item-plus:hover {
+	color: #dddddd;
+}
+
+/* Login page styles */
+.login-table {
+	margin: 10px 0 10px 0;
+}
+
+/* Cart page styles */
+.cart-empty-cells {
+	padding: 75px 0 75px 0;
+}
+
+.cart-img {
+	height: 100px;
+	width: auto;
+}
+
+/* Confirmation page styles */
+.confirmation-head {
+	background-color: #3DCCE5;
+	margin: 10px 0 10px 0;
+	padding: 10px;
+}
+
+.confirmation-img {
+	height: 100px;
+}
+
+.confirmation-table {
+	margin-bottom: 20px;
+}
+
+/* Alert styles */
+/* (w3schools 2017) */
+.alert-fade {
+	position: fixed;
+	display: none;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.7);
+	z-index: 2;
+}
+
+.alert-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+}
+
+.alert-box{
+	width: 100%;
+	background-color: #fff
+}
+
+.alert-icon {
+	color: #3DCCE5;
+	font-size: 100px;
+	padding: 20px;
+}
+
+.alert-panel {
+	padding: 20px;
+}
+
+.alert-head {
+	background-color: #3DCCE5;
+	font-family: opensans-extrabold;
+}

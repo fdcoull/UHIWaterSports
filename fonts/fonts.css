@@ -1,0 +1,19 @@
+/*
+Created by Finlay Daniel Coull
+2020-05-05
+UHI Water Sports Centre
+Fonts stylesheet
+*/
+
+/* (w3schools 2012) */
+/* (Steve Matteson, Google Fonts 2013) */
+@font-face {
+	font-family: opensans-extrabold;
+	src: url(opensans-extrabold.ttf);
+}
+
+/* (Steve Matteson, Google Fonts 2013) */
+@font-face {
+	font-family: opensans-regular;
+	src: url(opensans-regular.ttf);
+}

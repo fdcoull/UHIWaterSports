@@ -1,0 +1,47 @@
+{
+"info": ["Type of alert to be shown. 1: Alert box, 2: Alert window", "Description of alert"],
+
+"loginalert1": [1, "Login successful!"],
+"loginalert2": [2, "Login failed. Incorrect email or password."],
+"loginalert3": [2, "Login failed. Please refresh page and try again."],
+
+"logoutalert1": [1, "Successfully logged out!"],
+
+"cartalert1": [1, "Item(s) added to cart."],
+"cartalert2": [2, "Addition to cart failed. Please refresh page and try again."],
+"cartalert3": [2, "Your cart already has 3 items. Please remove an item if you want to add another."],
+"cartalert4": [2, "This item could not be found."],
+"cartalert5": [2, "There is not enough of this item in stock."],
+"cartalert6": [2, "Please enter a valid quantity."],
+
+"cartedit2": [2, "Cart edit failed. Please refresh page and try again."],
+"cartedit3": [2, "Your cart is empty."],
+"cartedit4": [2, "This item could not be found within your cart."],
+
+"cartchangequantity2": [2, "Cart edit failed. Please refresh page and try again."],
+"cartchangequantity3": [2, "Your cart is empty."],
+"cartchangequantity4": [2, "This item could not be found within your cart."],
+"cartchangequantity5": [2, "This item could not be found."],
+"cartchangequantity6": [2, "Please enter a valid quantity."],
+"cartchangequantity7": [2, "There is not enough of this item in stock."],
+
+"registeralert1": [1, "Registration was successful! Enter your email and password here to login."],
+"registeralert2": [2, "Please log out before creating a new account."],
+"registeralert3": [2, "Registration failed. Please refresh page and try again."],
+"registeralert4": [2, "Passwords do not mach. Please try again."],
+"registeralert5": [2, "This email address is taken. Please use another one."],
+"registeralert6": [2, "Failed to created account. Please try again later."],
+
+"orderalert2": [2, "Please login to place your order."],
+"orderalert3": [2, "Your shopping cart is empty. Please add a product to place an order."],
+"orderalert4": [2, "Internal error 4. Please contact admin."],
+"orderalert5": [2, "Internal error 5. Please contact admin."],
+"orderalert6": [2, "Internal error 6. Please contact admin."],
+"orderalert7": [2, "Your cart contains more than 3 items. Please remove additional items before placing an order."],
+"orderalert8": [2, "We currently don't have enough stock for one or more of the items in your cart. Please change your order then retry."],
+"orderalert9": [2, "Your cart contains an item with an invalid quantity. Please amend before placing an order."],
+
+"confirmationalert2": [2, "You are not logged in. To review your order, please login here."],
+"confirmationalert3": [2, "This order number could not be found. Please try again."],
+"confirmationalert4": [2, "This order is not associated with your account. Please login to view."]
+}
