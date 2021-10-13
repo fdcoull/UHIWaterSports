@@ -17,6 +17,7 @@ The website must include a login page that requires an email address and passwor
 * MySQL 8.0 and MariaDB 10.6
 
 Copy the contents of the project into a server's public website directory. Enter the SQL console, create a table named "uhiwatersports". After this, paste the contents of the file located at doc/create_and_populate_tables.sql then execute. Then edit the file found at src/Database/env.php and add database login credentials to "DB_USER" and "DB_PASSWORD" constants. Once done, go to the server's IP or domain name on a browser to view the website.
+*IF USING NGINX - Delete .htaccess from directory and configure an NGINX rewrite rule that directs extensionless URL requests to ones ending in ".php".
 
 ## User Manual
 ### Registering
